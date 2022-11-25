@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Rimouski";
+  src: url(font/rimouski_sb-webfont.ttf);
+}
+
+body {
+  background-color: #293251;
+  text-align: center;
+  font-family: "Rimouski";
+  color: #293251;
+}
+
+.container {
+  margin: 0 auto;
+  background-color: white;
+  width: 300px;
+  border-radius: 10px;
+  padding-bottom: 50px;
+}
+.app-title {
+  padding: 8px;
+  margin: 0 auto;
+}
+.app-title p {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 10px;
+}
+.notification {
+  background-color: #f8d7da;
+  display: none;
+}
+.notification p {
+  color: #721c24;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 10px 0;
+}
+.weather-container {
+  background-color: #f4f9ff;
+  margin: 0;
+}
+.temperature-value {
+  height: 60px;
+  margin: 0;
+}
+.temperature-value p {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.temperature-value span {
+  font-size: 0.5em;
+}
+
+.temperature-description p {
+  padding: 8px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  color: #293251;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.location p {
+  margin: 0;
+  padding: 8px;
+  color: #293251;
+  text-align: center;
+}

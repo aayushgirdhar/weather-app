@@ -1,7 +1,7 @@
 # weather-app
-Designed and developed a minimal weather app which shows the temperature using geolocation.
+Designed and developed a minimal weather app which shows the temperature of your current location using geolocation.
 
-For weather Data I used OpenWeather API.
+For weather Data I have used OpenWeather API.
 
 live demo - https://aayushg02.github.io/weather-app/
 
